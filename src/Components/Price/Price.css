@@ -1,0 +1,40 @@
+.prices{
+    min-height: 80vh;
+    
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.package_a{
+    background: url('../../assets/package2.png') no-repeat;
+  
+}
+.package_b{
+    background: url('../../assets/package.png') no-repeat;
+    
+}
+.package_c{
+    background: url('../../assets/package3.png') no-repeat;
+   
+
+
+}
+
+.price .chart{
+   margin:  25px;
+   border-radius: 10px;
+   min-height: 900px;
+   min-width: 400px;
+   background-size: auto;
+   
+}
+
+.price-info{
+    background: white;
+    color: #000;
+    height:100px;
+}

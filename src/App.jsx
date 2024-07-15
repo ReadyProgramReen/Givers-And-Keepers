@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
+import Price from './Components/Price/Price'
 
 
 const App = () => {
@@ -8,6 +9,8 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
+      <Price/>
+    
     </div>
   )
 }
