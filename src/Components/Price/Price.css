@@ -15,6 +15,8 @@
 }
 .package_b{
     background: url('../../assets/package.png') no-repeat;
+   border-radius: 40px;
+
     
 }
 .package_c{
@@ -24,10 +26,19 @@
 
 }
 
+.prices h2{
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: #130f29;
+    font-weight: 300;
+}
+
 .price .chart{
    margin:  25px;
-   border-radius: 10px;
-   min-height: 900px;
+   border-radius: 40px;
+   min-height: 600px;
    min-width: 400px;
    background-size: auto;
    
@@ -36,5 +47,5 @@
 .price-info{
     background: white;
     color: #000;
-    height:100px;
+    height:-200px;
 }
