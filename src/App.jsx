@@ -9,7 +9,10 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
-      <Price/>
+      <div className="container">
+        <Price/>
+      </div>
+      
     
     </div>
   )
