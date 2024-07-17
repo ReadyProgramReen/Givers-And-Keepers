@@ -27,9 +27,10 @@
 }
 .slider ul{
     display: flex;
-    width: 200%;
+    width: 250%;
     overflow-x: hidden;
     transform: 0.5s;
+    
 }
 .slider ul li{
     list-style: none;

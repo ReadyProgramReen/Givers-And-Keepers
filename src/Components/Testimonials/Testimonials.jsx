@@ -1,18 +1,47 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Testimonials.css'
 import next_icon from '../../assets/next-icon.png'
 import back_icon from '../../assets/back-icon.png'
-import user_1 from '../../assets/user-1.png'
+import user_1 from '../../assets/test1.png'
+import user_2 from '../../assets/test2.png'
+import user_3 from '../../assets/test3.png'
+import user_4 from '../../assets/test4.png'
+import user_5 from '../../assets/test5.png'
+
 
 
 const Testimonials = () => {
+
+    const slider = useRef();
+
+    let tx = 0;
+
+
+    // functionality for slide
+    const slideForward = ()=>{
+        if(tx > -50){
+            tx -= 40;
+        }
+        slider.current.style.transform = `translateX(${tx}%)`;
+    }
+
+    const slideBackward = ()=>{
+        if(tx < 0){
+            tx +=50;
+        }
+        slider.current.style.transform = `translateX(${tx}%)`;
+
+        
+    }
+
+
   return (
     <div className='testimonials'>
         
-        <img className='back-btn' src={back_icon} alt="" />
-        <img className='next-btn'  src={next_icon} alt="" />
+        <img className='back-btn'onClick={slideBackward} src={back_icon} alt="" />
+        <img className='next-btn'  onClick={slideForward}  src={next_icon} alt="" />
         <div className="slider">
-            <ul>
+            <ul ref={slider}>
                 <li>
                     <div className="slide">
                         <div className="client-info">
@@ -32,7 +61,7 @@ const Testimonials = () => {
                 <li>
                     <div className="slide">
                         <div className="client-info">
-                            <img src={user_1} alt="" />
+                            <img src={user_5} alt="" />
                             <div>
                                 <h3>Emily and James Rodriguez</h3>
                                 <span> June 28, 2024</span>
@@ -49,7 +78,7 @@ const Testimonials = () => {
                 <li>
                     <div className="slide">
                         <div className="client-info">
-                            <img src={user_1} alt="" />
+                            <img src={user_4} alt="" />
                             <div>
                                 <h3>Olivia and Daniel Smith</h3>
                                 <span>September 5, 2023</span>
@@ -66,7 +95,7 @@ const Testimonials = () => {
                 <li>
                     <div className="slide">
                         <div className="client-info">
-                            <img src={user_1} alt="" />
+                            <img src={user_3} alt="" />
                             <div>
                                 <h3>Jessica and Andrew Wilson</h3>
                                 <span>May 15, 2024</span>
@@ -83,7 +112,7 @@ const Testimonials = () => {
                 <li>
                     <div className="slide">
                         <div className="client-info">
-                            <img src={user_1} alt="" />
+                            <img src={user_2} alt="" />
                             <div>
                                 <h3>Samantha and Christopher Davis</h3>
                                 <span>July 3, 2023</span>
