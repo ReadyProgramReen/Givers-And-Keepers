@@ -5,6 +5,7 @@ import Price from './Components/Price/Price'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Gallery from './Components/Gallery/Gallery'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <Title title ='Gallery'/>
       <Gallery/>
         <About/>
+        <Title title ='Happily Ever Afters'/>
+        <Testimonials/>
         <Title title ='Wedding Photgraphy Prices Packages'/>
         <Price/>
       </div>
