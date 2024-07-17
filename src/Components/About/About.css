@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    margin-top: 30px;
+}
+/* 
+.about-right {
+    width: 50%;
+} */
+
+.about-left{
+    width: 70%;
+    text-align: end;
+    padding-right: 17px;
+}
+
+.about-right img {
+    width: 100%;
+    border-radius: 10px;
+} 
