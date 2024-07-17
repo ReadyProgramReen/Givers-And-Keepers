@@ -12,6 +12,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className="container">
+      <Title title ='Gallery'/>
         <About/>
         <Title title ='Wedding Photgraphy Prices Packages'/>
         <Price/>
