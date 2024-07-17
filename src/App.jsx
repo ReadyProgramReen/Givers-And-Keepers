@@ -4,6 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Price from './Components/Price/Price'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
+import Gallery from './Components/Gallery/Gallery'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <div className="container">
       <Title title ='Gallery'/>
+      <Gallery/>
         <About/>
         <Title title ='Wedding Photgraphy Prices Packages'/>
         <Price/>

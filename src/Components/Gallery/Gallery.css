@@ -1,0 +1,10 @@
+
+.gallery img{
+    width: 220px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.gallery .big-img{
+    height: 330px;
+}
