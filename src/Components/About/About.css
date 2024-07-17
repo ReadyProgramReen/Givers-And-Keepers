@@ -2,16 +2,43 @@
     display: flex;
     margin-top: 30px;
 }
-/* 
-.about-right {
-    width: 50%;
-} */
+
 
 .about-left{
-    width: 70%;
+    width: 80%;
     text-align: end;
-    padding-right: 17px;
+    padding-right: 20px;
 }
+
+.about-left h3{
+    font-size: 40px;
+    margin:20px 0;
+    font-weight: 600;
+    color:#2b2457;
+
+}
+.about-left h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin:30px 0 10px 0;
+    color:#1f182a;    
+}
+
+.about-left hr{
+    width: 80%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+
+}
+
+.about-left p{
+    margin-left:  10px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+
+    
 
 .about-right img {
     width: 100%;
