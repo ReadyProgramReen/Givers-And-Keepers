@@ -8,3 +8,14 @@
 .gallery .big-img{
     height: 330px;
 }
+
+@media (max-width: 1300px){
+    
+    .gallery{
+        margin-left: 10px;
+
+    }
+    .gallery img{
+        width: 200px;
+    }
+}
