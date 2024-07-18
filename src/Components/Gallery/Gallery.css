@@ -9,6 +9,9 @@
     height: 330px;
 }
 
+
+/* Media Query */
+
 @media (max-width: 1300px){
     
     .gallery{
