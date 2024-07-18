@@ -43,3 +43,16 @@ a{
 
 
 
+/* Media Query */
+
+@media(max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn{
+    padding: 8px 20px;
+  }
+    
+}

@@ -29,3 +29,60 @@ nav ul li{
     transition: 0.5s;
     
 }
+
+/* only for smaller screen */
+.menu-icon{
+    display: none;
+}
+
+/* Media Query */
+
+@media (max-width:1000px){
+    nav p{
+       font-size: 22px;
+       font-weight: 600;
+
+    }
+
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width:840px){
+    nav{
+        padding: 15px 0;
+    }
+
+    nav p{
+        font-size: 27px;
+    }
+    nav ul{
+        position: fixed;
+        top:0;
+        right:0px;
+        bottom:0;
+        background: #212EA0;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px 30px;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hidden-menu{
+        right: -200px
+    }
+
+
+}
