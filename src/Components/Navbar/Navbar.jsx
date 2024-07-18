@@ -19,8 +19,8 @@ const Navbar = () => {
             <li>Home</li>
             <li>Gallery</li>
             <li>About us</li>
-            <li>Pricing</li>
             <li>Past Clients</li>
+            <li>Pricing</li>
             <li><button className='btn'>Contact us</button></li>
 
 
