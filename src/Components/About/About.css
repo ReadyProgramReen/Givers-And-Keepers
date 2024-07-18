@@ -45,3 +45,48 @@
     width: 100%;
     border-radius: 10px;
 } 
+
+/* Media Query */
+
+@media (max-width: 1300px){
+
+    .about-right {
+        width: 30%;
+    }
+
+
+}
+
+
+@media (max-width: 800px){
+
+    .about{
+        flex-direction: column;
+
+    }
+
+    .about-right{
+        flex-basis: 70%;
+        margin: 10 auto;
+        width: 50%;
+
+    }
+
+    .about-left{
+        flex-basis: 100%;
+        text-align: center;
+        margin : 10px 0 20px 0;
+        padding: 0;
+    
+
+
+    }
+
+
+    .about-left hr{
+        margin-left: 60px;
+
+
+    }
+
+}
