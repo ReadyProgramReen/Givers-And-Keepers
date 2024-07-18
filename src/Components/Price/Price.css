@@ -112,6 +112,55 @@ background:linear-gradient(rgba(198, 197, 204, 0.4),rgba(138, 137, 146, 0.4)),  
     font-size: x-large;
     font-weight: 500;
     margin-top: 20px;
+    color: rgb(255, 246, 240);
+    font-size: 30px;
+    font-weight: 500;
     
 
 }
+
+
+/* Media Query */
+@media (max-width:1360px){
+
+
+    .price .chart{
+        min-height: 500px;
+        min-width: 350px;
+        margin: 5px;
+        color: aliceblue;
+        font-size: 17px;
+    
+    }
+
+
+}
+
+
+@media (max-width:1220px){
+
+    
+    .price .chart{
+        min-height: 500px;
+        min-width: 300px;
+    
+    }
+}
+
+
+@media (max-width:900px){
+    .price{
+        flex-direction: column;
+    }
+     .price .chart{
+      margin:  25px;
+      border-radius: 40px;
+      min-height: 550px;
+      min-width: 400px;
+      background-size: auto;
+        
+    }
+
+}
+
+
