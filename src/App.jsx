@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import Gallery from './Components/Gallery/Gallery'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Price/>
         <Title title ='Contact Us'/>
         <Contact/>
+        <Footer/>
         
       </div>
       
