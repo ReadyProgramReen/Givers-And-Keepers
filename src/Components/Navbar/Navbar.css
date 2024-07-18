@@ -39,8 +39,8 @@ nav ul li{
 
 @media (max-width:1000px){
     nav p{
-       font-size: 22px;
-       font-weight: 600;
+       font-size: 27px;
+       font-weight: 500;
 
     }
 
@@ -55,7 +55,7 @@ nav ul li{
     }
 
     nav p{
-        font-size: 27px;
+        font-size: 30px;
     }
     nav ul{
         position: fixed;
